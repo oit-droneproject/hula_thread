@@ -25,14 +25,10 @@ time.sleep(6)  # SPS/PPSが届くまで待つ
 print("映像取得開始...")
 
 while True:
-    #arry=api.single_fly_Anticipatory_recognition(0,20)
-    #print(arry)
-    #print(arry['y'])
-    #print(api.single_fly_Optical_flow_recognition(0,20))
-    #print(api.single_fly_Optical_flow_alignment(0,20,0))
-
-    print(api.single_fly_Proactive_alignment(0))
-    print(api.single_fly_getColor())
+    arry=api.single_fly_Anticipatory_recognition(0,20)
+    print(arry)
+    print(arry['y'])
+    
 
     
     if keyboard.is_pressed('q'):
