@@ -1,5 +1,5 @@
 
-'''python
+```python
 import pyhula
 import cv2
 import numpy as np
@@ -39,4 +39,4 @@ while True:
         print("qが押されたので停止します")
         api.Plane_cmd_swith_rtp(1)
         break
-'''
+```
